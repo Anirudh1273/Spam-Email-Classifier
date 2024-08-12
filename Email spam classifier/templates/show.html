@@ -21,7 +21,7 @@
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Email Spam Classifier</a>
-        <a class="navbar-brand" href="#">Created by **Bappy Ahmed**</a>
+        <a class="navbar-brand" href="#">Created by **Anirudh Grandhi**</a>
       </div>
     </nav>
   </div>
@@ -30,7 +30,7 @@
 
   <!-- Show -->
   <div class="container">
-    <h3 class=" mt-3">Email Spam Classifier's result shown below 😀😀 </h3>
+    <h3 class=" mt-3">Email Spam Classifier's result shown below </h3>
     <p>Thanks for using my application..</p>
     <a href="/">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go Back</button>
@@ -44,7 +44,7 @@
   <!-- Result -->
   <div class="results">
     {% if prediction==1 %}
-    <h1>Prediction: <span class='danger'>Gotcha! This is a SPAM message.</span></h1>
+    <h1>Prediction: <span class='danger'> This is a SPAM message.</span></h1>
     <img class="gif" src="{{ url_for('static', filename='spam.webp') }}" alt="SPAM Image">
     {% elif prediction==0 %}
     <h1>Prediction: <span class='safe'>Great! This is NOT a spam message.</span></h1>
@@ -58,7 +58,7 @@
   <!-- Footer -->
   <div class='footer'>
 
-    <p class='footer-description'>Made with ❤️ Bappy Ahmed.</p>
+    <p class='footer-description'> by Anirudh Grandhi.</p>
   </div>
 
 
